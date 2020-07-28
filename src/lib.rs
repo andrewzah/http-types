@@ -131,9 +131,11 @@ mod status;
 mod status_code;
 mod version;
 
+pub mod multipart;
+
 cfg_unstable! {
-    pub mod upgrade;
     pub mod trace;
+    pub mod upgrade;
 
     mod client;
     mod server;
